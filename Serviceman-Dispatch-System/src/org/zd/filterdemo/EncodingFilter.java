@@ -11,7 +11,7 @@ public class EncodingFilter implements Filter {
 	private String charSet ;
 	public void init(FilterConfig config)
           throws ServletException{
-		// 接收初始化的参数.......
+		// 接收初始化的参数ing
 		this.charSet = config.getInitParameter("charset") ;	
 	}
 	public void doFilter(ServletRequest request,
